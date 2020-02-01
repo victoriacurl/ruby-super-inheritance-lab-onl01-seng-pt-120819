@@ -6,8 +6,7 @@ def hello
 end
 
 def raise_hand
-  super
   10.times.do
-  puts "Pick me!"
+  super
 end
 end
