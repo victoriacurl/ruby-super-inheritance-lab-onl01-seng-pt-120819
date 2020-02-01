@@ -7,8 +7,8 @@ end
 
 def raise_hand
   super
-  i = 0 
-  loop do 
+  i = 0
+  loop do
     i += 10
     puts "Pick me!"
     break
