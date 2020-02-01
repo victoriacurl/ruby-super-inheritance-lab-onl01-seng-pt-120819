@@ -6,7 +6,11 @@ def hello
 end
 
 def raise_hand
-  10.times.do
   super
+  i = 0 
+  loop do 
+    i += 10
+    puts "Pick me!"
+    break
 end
 end
