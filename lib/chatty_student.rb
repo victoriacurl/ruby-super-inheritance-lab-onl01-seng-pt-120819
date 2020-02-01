@@ -9,8 +9,9 @@ def raise_hand
   super
   i = 0
   loop do
-    i += 10
+    i += 1
     puts "Pick me!"
+    if i == 10
     break
 end
 end
